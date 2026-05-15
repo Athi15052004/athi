@@ -1,0 +1,272 @@
+html{
+    background-color: rgb(39, 101, 172);
+}
+header{
+    background-color: blanchedalmond;
+    padding: 0px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 200px;
+    border-style: double;
+    border-color: red;
+}
+#content img{
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-style: ridge;
+    border-color: rgb(5, 5, 0);
+    
+}
+#content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(232, 216, 216);
+    color: black;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-color: red;
+    border-style: dotted;
+}
+#content div{
+    width: 1000px;
+    padding: 20px;
+    align-items: center;
+    font-size: x-large;
+    margin-left: 30px;
+    
+
+}
+div {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-right: 50px;
+}
+div h5{
+    font-size: xx-large;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+#skills div{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+#edu{
+    background-color: rgb(216, 202, 202);
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 30px;
+    border-color: red;
+    border-style: dotted;
+
+
+}
+.pg,.ug{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    font-weight: bold;
+    text-align: justify;
+
+}
+#skills{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 200, 200);
+    justify-content: space-around;
+    padding: 20px;
+    margin-top:20px;
+    border-radius: 20px;
+    border-color:black;
+    border-style: double;
+    border-color: red;
+    border-style: dotted;
+
+}
+h3{
+    display: flexbox;
+    flex-direction:row;
+    text-align: center;
+    background-color: bisque;
+    padding: 25px;
+    margin-bottom:0px;
+    font-style: italic;
+    border-color: black;
+    border-radius: 40px;
+    border-style: double;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.skill1{
+    margin-left: 40px;
+}
+.skill1 h4{
+    font-size: larger;
+    color: black;
+    background-color:rgb(113, 187, 214) ;
+    padding: 7px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.skill2 h4{
+    font-size: larger;
+    color: black;
+    background-color:rgb(113, 187, 214) ;
+    padding: 7px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.skill3 h4{
+    font-size: larger;
+    color: black;
+    background-color:rgb(113, 187, 214);
+    padding: 7px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+.skill4 h4{
+    font-size: larger;
+    color: black;
+    background-color:rgb(113, 187, 214);
+    padding: 7px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.skill1 li{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(151, 220, 151);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+.skill2 li{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(151, 220, 151);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.skill3 li{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(151, 220, 151);
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.skill4 li{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(151, 220, 151);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.social {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+svg{
+    width: 40px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color:black ;
+    border-style: groove;
+}
+h2{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-large;
+}
+@media(max-width:800px){
+    #content{
+        background-color: blue;
+    }
+}
+@media(max-width:600px){
+    #content{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #edu{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #skills{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3,500px);
+    }
+    #footer{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
